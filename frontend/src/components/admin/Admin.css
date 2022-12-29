@@ -1,0 +1,116 @@
+.admin {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-rows: 2fr 1fr 0.5fr;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    background-color: rgb(131, 105, 243);
+}
+
+.item {
+
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%), radial-gradient(1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%);
+}
+
+.adminSideBar {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.adminHead {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+.adminHeadBody {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    width: 100%;
+    height: 100%;
+
+}
+
+.adminBody {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.adminProfile {
+    width: 70%;
+    height: 80%;
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    border-radius: 4mm;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    /* padding: 1rem; */
+    /* padding-top: 2rem; */
+}
+
+.adminBodyContain {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    /* width: 100%;
+    height: 30rem;
+    margin: 2rem;*/
+    /* border-radius: 1rem; */
+    height: 100%;
+    width: 100%;
+}
+
+/* For user table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* li:nth-child(even) {
+    background-color: #dddddd;
+} */
+
+.userMapInAdmin {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+
+}
+
+/* li {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+} */
+
+.userMapInAdminList {
+    width: 80%;
+    display: flex;
+    justify-content: inherit;
+    justify-items: flex-start;
+    list-style: none;
+}
+
+.mapContainer {
+    padding: 20px;
+    width: 70%;
+}
+
+.buttonInAdminMap {
+    margin: 2px;
+}
